@@ -5,4 +5,7 @@ for(let i = 0; i <= 20; i++) {
   result += `${number} x ${i} = ${number * i}\n`
 }
 
-alert(result)
+alert(
+  `Tabuada de ${number} até 20:\n` +
+  result
+)
